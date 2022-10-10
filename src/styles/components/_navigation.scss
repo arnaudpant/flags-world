@@ -8,12 +8,12 @@
       padding: 10px;
 
       li {
-        color: $color-1;
+        color: $color-3;
         transition: 0.2s;
         cursor: pointer;
 
         &:hover {
-          color: $color-3;
+          color: $color-1;
         }
       }
     }
