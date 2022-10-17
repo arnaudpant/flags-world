@@ -1,0 +1,42 @@
+.accordeon {
+    max-width: 400px;
+    height: auto;
+    margin: 50px auto 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+    img {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+.accordeon-visible {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-1;
+    padding: 8px;
+    cursor: pointer;
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+.accordeon-toggle {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out, height 0.4s 0.4s ease-in-out;
+
+    p {
+        margin: 0;
+        padding: 8px;
+        line-height: 1.5;
+        pointer-events: none;
+    }
+}
+
+.animated {
+    opacity: 1;
+    transition: height 0.4s ease-in-out, opacity 0.4s 0.4s ease-in-out;
+}
