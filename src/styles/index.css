@@ -24,6 +24,10 @@ p {
   margin: 8px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navigation ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -434,5 +438,107 @@ nav {
   .btn {
     display: block;
   }
+}
+
+.blog-container {
+  margin: 16px;
+}
+
+.form-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-flex input {
+  margin: 8px 0;
+  padding: 4px;
+}
+
+.form-flex input[type="submit"] {
+  margin: 16px auto;
+  background-color: #61dafb;
+  width: 100px;
+  height: 48px;
+  border: none;
+  border-radius: 999px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
+}
+
+.form-flex input[type="submit"]:hover {
+  background-color: #0078AA;
+  color: #f3f3f3;
+}
+
+.form-flex textarea {
+  min-height: 80px;
+  padding: 4px;
+}
+
+.form-flex p {
+  margin: 4px auto;
+  font-size: 0.7em;
+  color: red;
+}
+
+.article {
+  margin: 16px 0;
+  padding: 4px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
+  border-radius: 16px;
+}
+
+.article textarea {
+  width: 100%;
+}
+
+.article-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 8px 0 0 4px;
+}
+
+.article-header h4 {
+  font-size: 0.8em;
+}
+
+.article-header em {
+  font-size: 0.7em;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.btn-container button {
+  width: 80px;
+  margin: 16px 8px;
+  padding: 8px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 999px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
 }
 /*# sourceMappingURL=index.css.map */

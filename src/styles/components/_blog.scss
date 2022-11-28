@@ -1,0 +1,81 @@
+.blog-container {
+    margin: 16px;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        margin: 8px 0;
+        padding: 4px;
+    }
+
+    input[type="submit"] {
+        margin: 16px auto;
+        background-color: $color-1;
+        width: 100px;
+        height: 48px;
+        border: none;
+        border-radius: 999px;
+        box-shadow: $box-shaddow;
+
+        &:hover {
+            background-color: $color-2;
+            color: $white;
+        }
+    }
+
+    textarea {
+        min-height: 80px;
+        padding: 4px;
+    }
+
+    p {
+        margin: 4px auto;
+        font-size: 0.7em;
+        color: $color-alert;
+    }
+}
+
+.article {
+    margin: 16px 0;
+    padding: 4px;
+    box-shadow: $box-shaddow;
+    border-radius: 16px;
+
+    textarea {
+        width: 100%;
+    }
+}
+
+.article-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0 0 4px;
+
+    h4 {
+        font-size: 0.8em;
+    }
+    em {
+        font-size: 0.7em;
+    }
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    button {
+        width: 80px;
+        margin: 16px 8px;
+        padding: 8px;
+        background-color: $color-1;
+        border: none;
+        border-radius: 999px;
+        box-shadow: $box-shaddow;
+    }
+}

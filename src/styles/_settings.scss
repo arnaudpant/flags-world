@@ -1,9 +1,12 @@
 $font-1: Verdana, Geneva, Tahoma, sans-serif;
 
 $color-1: #61dafb;
-$color-2: salmon;
+$color-2: #0078AA;
 $color-3: #282c34;
+$color-alert: red;
 $white: rgb(243, 243, 243);
+
+$box-shaddow: 0 2px 3px rgba(0, 0, 0, 0.307);
 
 @mixin verticalCenter {
   display: flex;
@@ -33,4 +36,8 @@ h1 {
 
 p{
   margin: 8px;
+}
+
+a {
+  text-decoration: none;
 }

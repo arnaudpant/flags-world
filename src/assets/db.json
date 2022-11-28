@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "title": "Article 1",
+      "content": "BlablaBla",
+      "date": 1621530288602,
+      "id": 1
+    },
+    {
+      "title": "Article 2",
+      "content": "La terre est ronde",
+      "date": 1669564833150,
+      "id": 2
+    },
+    {
+      "title": "Article 3",
+      "content": "Ma femme s'appelle Isabelle",
+      "date": 1669564833166,
+      "id": 3
+    }
+  ]
+}
