@@ -7,8 +7,10 @@
   box-shadow: $box-shaddow;
   background-color: #333;
 
-  img {
+  .logo-react {
     height: 40px;
+    color: $color-1;
+    font-size: 2em;
   }
   h3 {
     margin-left: 10px;

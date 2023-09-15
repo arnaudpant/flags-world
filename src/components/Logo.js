@@ -1,9 +1,9 @@
-import React from 'react';
+import { FaReact } from "react-icons/fa";
 
 const logo = () => {
     return (
-        <div className="logo">
-            <img src="./logo192.png" alt="logo react" />
+        <div className="logo" >
+            <FaReact className="logo-react" />
             <h3>React World</h3>
         </div>
     );

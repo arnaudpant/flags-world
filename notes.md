@@ -1,3 +1,30 @@
+## Structure
+
+Blog.js 
+- {axios get data en json}
+- useEffect data
+- {axios post au submit les input}
+- <form submit>
+- <ul>data.map(article)
+-- <Article article />
+
+Article.js (props)
+- {axios put pour modifier un article}
+- {axios delete}
+- <div article>affichage des données
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Pour les liens <a> en html: 
 import { NavLink } from 'react-router-dom';
 
